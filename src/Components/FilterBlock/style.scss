@@ -1,0 +1,50 @@
+input[type="checkbox"] {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+
+}
+
+.checkbox_block {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #CCCCCC;
+
+
+}
+.checkbox_block:hover {
+  border-color: black;
+
+
+}
+.checkbox_wrapper {
+  display: flex;
+  align-items: center;
+
+}
+.active {
+  background: url("../../assets/Vector.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.filter__blocks__position {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+
+}
+
+.material-filter__value {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 8px;
+
+}
+
